@@ -1,6 +1,6 @@
 # npmtest-grunt-bower-install
 
-#### test coverage for  [grunt-bower-install (v1.6.0)](http://stephenplusplus.github.io/grunt-bower-install)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-bower-install.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-bower-install) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-bower-install.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-bower-install)
+#### basic test coverage for  [grunt-bower-install (v1.6.0)](http://stephenplusplus.github.io/grunt-bower-install)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-bower-install.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-bower-install) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-bower-install.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-bower-install)
 
 #### Inject your Bower dependencies right into your HTML from Grunt.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-bower-install/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-bower-install/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-bower-install/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-bower-install/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-bower-install/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-bower-install/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-bower-install/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-bower-install/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-bower-install/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-bower-install/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-bower-install/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-bower-install/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
         "type": "git",
         "url": "git://github.com/stephenplusplus/grunt-bower-install.git"
     },
-    "version": "1.6.0"
+    "version": "1.6.0",
+    "bin": {}
 }
 ```
 
